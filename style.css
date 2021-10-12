@@ -1,0 +1,25 @@
+html {
+  text-align: center;
+  background-image: url("https://cdn.pixabay.com/photo/2017/02/01/22/02/mountain-landscape-2031539_1280.jpg");
+  background-repeat: repeat-y;
+  background-size: 100%;
+}
+
+body {
+  color: blue;
+}
+
+div {
+  color: black;
+}
+
+#title {
+  border: 10px double Black;
+  width: 200px;
+  margin: 0 auto;
+  background-color: gray;
+}
+
+#first-p {
+
+}
