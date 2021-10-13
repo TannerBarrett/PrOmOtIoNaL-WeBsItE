@@ -6,20 +6,23 @@ html {
 }
 
 body {
-  color: blue;
+  color: black;
 }
 
 div {
   color: black;
+  border: 6px ridge gray;
+  width: 400px;
+  margin: 0 auto;
+  background-color: white;
+  margin-bottom: 20px;
+  height: 80px;
 }
 
 #title {
   border: 10px double Black;
   width: 200px;
   margin: 0 auto;
-  background-color: gray;
-}
-
-#first-p {
-
+  background-color: white;
+  margin-bottom: 20px;
 }
