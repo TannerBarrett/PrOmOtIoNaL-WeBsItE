@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Emoji Clicker</title>
+    <link href="../css/game.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Grandstander&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <div class='content'>
+      <!-- header -->
+      <h1>Emoji Clicker</h1>
+      <hr>
+      <h2 id="instructions">
+        click the emoji to gain coins, and buy upgrades to make it faster
+      </h2>
+
+      <table>
+
+        <!-- Current Place, Item box, and Totals Section -->
+        <tr>
+          <td>
+            <h3>Current Click Power</h3>
+            <p class='click'><span id="click-pwr">1</span></p>
+            <h3>Current Clicks per Second</h3>
+            <p class="click"><span id="auto-cps">0</span></p>
+          </td>
+          <td><img id="current-emoji" class='clickable-img' src="../imgages/poop-emoji.jpg"  width="150px"></td>
+          <td>
+            <h3>Score</h3>
+            <p id="score-num">0</p>
+            <h3>Coins</h3>
+            <p id="coin-num">0</p>
+          </td>
+        </tr>
+
+        <!-- Use item, clear & roll multiple Section -->
+        <tr>
+          <td>
+            <h3>Good emojis(click these ones)</h3>
+            <p id="change-emoji"><img id="poop-emoji" src="../images/poop-emoji.jpg"><img id="happy-emoji" src="../images/happy emoji.jpg" ><img id="love-emoji" src="../images/love-emoji.webp"><img id="heart-eye-emoji" src="../images/heart-eye-emoji.png" ><img id="unicorn" src="../images/unicorn.png"></p>
+            <h3>Bad emojis(Don't click these ones)</h3>
+            <p id="change-emoji"><img id="sad-emoji" src="../images/sad-emoji.png"><img id="angry-emoji" src="../images/angry-emoji.png"><img id="devil-emoji" src="../images/devil-emoji.png"></p>
+          </td>
+
+          <td class='black'>
+            <button id="easy-btn">Easy</button><button id="normal-btn">Normal</button><button id="hard-btn">Hard</button>
+            <p>Current Difficulty is <span id="current-difficulty"> Normal</span></p>
+            <p>Changing difficulty resets your progress</p>
+          </td>
+          <td>
+            <h3>How to play</h3>
+            <p id="how-to-play">
+              click the emoji to gain coins and increase your score, you can buy upgrades with the coins you earn, and depending on your score the number of emojis will increase
+            </p>
+          </td>
+        </tr>
+
+        <!-- Inventory Section -->
+        <tr>
+          <td colspan='3'>
+            <h3>Here are your upgrades</h3>
+            <p id="upgrades" class="inventory">
+              <span>Power Click Price: <span id="pwr-click-price">50</span> <img src="../images/power-click.png" id="power-click" class="clickable-img"><span><img src="../images/clicker.png" id="auto-clicker" class="clickable-img">Auto Clicker Price: <span id="auto-click-price">100</span></span>
+            </p>
+          </td>
+        </tr>
+
+      </table>
+
+    </div>
+
+    <script src="../scripts/game.js"></script>
+  </body>
+</html>

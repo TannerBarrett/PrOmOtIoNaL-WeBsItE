@@ -1,0 +1,82 @@
+body {
+  background: url('../images/background.jpg');
+  text-align: center;
+  font-family: 'Grandstander', cursive;
+  background-size: 1980px;
+}
+
+.content {
+  width: 1000px;
+  margin: auto;
+  background: rgba(255,255,255,0.8);
+  padding: 20px 50px;
+}
+
+.clickable-img {
+  opacity: 1;
+  transition: opacity 0.5s;
+
+}
+
+.clickable-img:hover {
+  opacity: 0.5;
+  transition: opacity 0.5s;
+  cursor: pointer;
+}
+
+table {
+  margin: auto;
+  width: 900px;
+}
+
+#place {
+  font-size: 80px;
+}
+
+h3 {
+  text-align: center;
+}
+
+td {
+  border: 1px solid black;
+}
+
+.black {
+  background: black;
+  color: white;
+}
+
+button {
+  padding: 10px 15px;
+  background: lightseagreen;
+  font-family: 'Grandstander', cursive;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.inventory {
+  height: 100px;
+}
+
+.inventory img {
+  width: 70px;
+  margin-right: 15px;
+}
+
+.itemsLoop {
+  margin: 10px;
+  width: 50px;
+}
+
+#change-emoji img {
+  width: 40px;
+}
+
+#how-to-play {
+  width: 250px;
+  margin: 0 auto;
+}
+
+#power-click {
+  padding-right: 25px;
+}
